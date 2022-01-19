@@ -19,3 +19,6 @@
 ### Issues and to-do list with data
 - Shuffling test: redo the shuffles with updated parameters
 - Comparison test: recreate ground-truth list with new parameters
+- Biobank figure:
+  - script to generate GO terms
+  - Cytoscape file
