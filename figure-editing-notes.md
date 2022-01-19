@@ -9,6 +9,7 @@
 - Figure 3: sizes: 10, 100, 1000
 - Figure 3: Remove best/worst parameters, compare 3D/3D + linear/linear
 - Figure 3: Upper case: gProfiler
+- Figure 3: BP only, don't need MF
 - Figure 4: Add a label for colorbar
 - Figure 4: Upper/lower case: GO term
 - Figure 5: Make the title of ‘node size’ more specific, add a value in middle
