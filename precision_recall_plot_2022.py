@@ -98,7 +98,7 @@ behst_square =  Line2D([0], [0], marker='s', color='none',
 grey_circle =  Line2D([0], [0],marker='o', label='Original package',color='none',
                           markeredgecolor="grey",markerfacecolor="grey", markersize=10)
 grey_hollow_circle =  Line2D([0], [0],marker='o', label='Original package-gProfiler hybrid',color='none',
-                          markeredgecolor="grey",markerfacecolor="white", markersize=10)
+                          markeredgecolor="grey",markerfacecolor="none", markersize=10)
 
 # Number of terms
 small_circle =  Line2D([0], [0],marker='o', color='none',
@@ -114,10 +114,10 @@ leg_handles = handles=[extra, blue_patch, orange_patch, green_patch,
                        extra, grey_circle, grey_hollow_circle, 
                        extra, small_circle, large_circle]
 
-leg_labels = ['Tool', 'BEHST', 'GREAT', 'ChIP-Enrich',
-              'BEHST mode', '3D', 'Linear', '3D + linear',
-             'GREAT/ChIP-Enrich Mode', 'Original package',  'Original package-gProfiler hybrid', 
-             'Terms', '10', '100']
+leg_labels = ['Gene list method', 'BEHST', 'GREAT', 'ChIP-Enrich',
+              'Proximity information', '3D', 'Linear', '3D + linear',
+             'Enrichment method', 'Original package',  'Original package-gProfiler hybrid', 
+             'Number of terms', '10', '100']
 
 ax.legend_ = mlegend.Legend(ax, leg_handles, leg_labels, ncol=4, handletextpad=0.5,
                            bbox_to_anchor=(1, 1))
