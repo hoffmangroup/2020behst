@@ -1,0 +1,107 @@
+p_value	term_id	source	term_name
+2.68390754190537e-10	GO:0048598	GO:BP	embryonic morphogenesis
+2.03354934028787e-09	GO:0001501	GO:BP	skeletal system development
+2.95397389805511e-07	GO:0048562	GO:BP	embryonic organ morphogenesis
+3.09014088609758e-07	GO:0048568	GO:BP	embryonic organ development
+8.77271352763008e-07	GO:0000978	GO:MF	RNA polymerase II cis-regulatory region sequence-specific DNA binding
+1.16747900281986e-06	GO:0000987	GO:MF	cis-regulatory region sequence-specific DNA binding
+1.80322405020531e-06	GO:0000981	GO:MF	DNA-binding transcription factor activity, RNA polymerase II-specific
+3.89284750977538e-06	GO:0003700	GO:MF	DNA-binding transcription factor activity
+5.66213143890561e-06	GO:0000785	GO:CC	chromatin
+6.54106723586015e-06	GO:0009790	GO:BP	embryo development
+1.71422255661187e-05	GO:0000977	GO:MF	RNA polymerase II transcription regulatory region sequence-specific DNA binding
+5.5399690801764e-05	GO:0000976	GO:MF	transcription cis-regulatory region binding
+5.66708456975747e-05	GO:0001067	GO:MF	transcription regulatory region nucleic acid binding
+6.41887477693501e-05	GO:0003690	GO:MF	double-stranded DNA binding
+6.98721504441388e-05	GO:0043565	GO:MF	sequence-specific DNA binding
+0.000111193836863736	GO:1990837	GO:MF	sequence-specific double-stranded DNA binding
+0.000130311615053306	GO:0005694	GO:CC	chromosome
+0.000184522818734098	GO:0140110	GO:MF	transcription regulator activity
+0.000220448968293196	GO:0048704	GO:BP	embryonic skeletal system morphogenesis
+0.000313352892253932	GO:0009952	GO:BP	anterior/posterior pattern specification
+0.000336523922737201	GO:0009887	GO:BP	animal organ morphogenesis
+0.000357270828864309	GO:0003677	GO:MF	DNA binding
+0.000521391720478194	GO:0001228	GO:MF	DNA-binding transcription activator activity, RNA polymerase II-specific
+0.00059422056086719	GO:0001216	GO:MF	DNA-binding transcription activator activity
+0.000821731076652752	GO:0009653	GO:BP	anatomical structure morphogenesis
+0.00103633522046329	GO:0035113	GO:BP	embryonic appendage morphogenesis
+0.00103633522046329	GO:0030326	GO:BP	embryonic limb morphogenesis
+0.00129757396475078	GO:0048706	GO:BP	embryonic skeletal system development
+0.00265240593534551	GO:0031326	GO:BP	regulation of cellular biosynthetic process
+0.00280417190161852	GO:0006355	GO:BP	regulation of transcription, DNA-templated
+0.00284077620227889	GO:1903506	GO:BP	regulation of nucleic acid-templated transcription
+0.00292750768638923	GO:0019219	GO:BP	regulation of nucleobase-containing compound metabolic process
+0.00293425064151958	GO:2001141	GO:BP	regulation of RNA biosynthetic process
+0.00326248794155725	GO:0035108	GO:BP	limb morphogenesis
+0.00326248794155725	GO:0035107	GO:BP	appendage morphogenesis
+0.00392209544706781	GO:0009889	GO:BP	regulation of biosynthetic process
+0.00425254156112034	GO:0007275	GO:BP	multicellular organism development
+0.00518113725978496	GO:0048856	GO:BP	anatomical structure development
+0.00591027534772857	GO:1901362	GO:BP	organic cyclic compound biosynthetic process
+0.0059649973084272	GO:0051252	GO:BP	regulation of RNA metabolic process
+0.00621020547497093	GO:0006357	GO:BP	regulation of transcription by RNA polymerase II
+0.00654628339823494	GO:0048731	GO:BP	system development
+0.00707668012676848	GO:0048705	GO:BP	skeletal system morphogenesis
+0.00752719317748099	GO:0019438	GO:BP	aromatic compound biosynthetic process
+0.00835663276811666	GO:2000112	GO:BP	regulation of cellular macromolecule biosynthetic process
+0.00858306889231403	GO:0006351	GO:BP	transcription, DNA-templated
+0.00868697647833911	GO:0097659	GO:BP	nucleic acid-templated transcription
+0.00956139789544757	GO:0032774	GO:BP	RNA biosynthetic process
+0.0100321848624866	GO:0010556	GO:BP	regulation of macromolecule biosynthetic process
+0.0137026187470859	GO:0048736	GO:BP	appendage development
+0.0137026187470859	GO:0060173	GO:BP	limb development
+0.0146846819764043	GO:0034654	GO:BP	nucleobase-containing compound biosynthetic process
+0.0150978371867644	GO:0035115	GO:BP	embryonic forelimb morphogenesis
+0.01730238459866	GO:0003002	GO:BP	regionalization
+0.0194999182887289	GO:0006366	GO:BP	transcription by RNA polymerase II
+0.0218678877464846	GO:0018130	GO:BP	heterocycle biosynthetic process
+0.022053196982048	GO:0048333	GO:BP	mesodermal cell differentiation
+0.0229536641600319	GO:0007389	GO:BP	pattern specification process
+0.0250193368947439	GO:0048513	GO:BP	animal organ development
+0.034682689178268	GO:0035136	GO:BP	forelimb morphogenesis
+0.0550849555814881	GO:0032502	GO:BP	developmental process
+0.071776940204876	GO:0009059	GO:BP	macromolecule biosynthetic process
+0.0892799636109544	GO:0060644	GO:BP	mammary gland epithelial cell differentiation
+0.094081825434996	GO:0009888	GO:BP	tissue development
+0.100439295178482	GO:0010468	GO:BP	regulation of gene expression
+0.111531004440733	GO:0031091	GO:CC	platelet alpha granule
+0.127965356452545	GO:0060429	GO:BP	epithelium development
+0.128247589611908	GO:0044271	GO:BP	cellular nitrogen compound biosynthetic process
+0.144892106439553	GO:0034645	GO:BP	cellular macromolecule biosynthetic process
+0.148399322379989	GO:0060065	GO:BP	uterus development
+0.199328790993016	GO:0045655	GO:BP	regulation of monocyte differentiation
+0.28318350697416	GO:0090304	GO:BP	nucleic acid metabolic process
+0.310707530547355	GO:0046483	GO:BP	heterocycle metabolic process
+0.370700533800151	GO:0006725	GO:BP	cellular aromatic compound metabolic process
+0.380916627671063	GO:0006139	GO:BP	nucleobase-containing compound metabolic process
+0.381519246579664	GO:0060541	GO:BP	respiratory system development
+0.388571545841819	GO:0005634	GO:CC	nucleus
+0.390189723312307	GO:0060485	GO:BP	mesenchyme development
+0.406528459019139	GO:1901360	GO:BP	organic cyclic compound metabolic process
+0.423183384133364	GO:0050678	GO:BP	regulation of epithelial cell proliferation
+0.423293121358214	GO:0007498	GO:BP	mesoderm development
+0.424332147065916	GO:0043009	GO:BP	chordate embryonic development
+0.463608713124357	GO:0060441	GO:BP	epithelial tube branching involved in lung morphogenesis
+0.494467067159104	GO:0042101	GO:CC	T cell receptor complex
+0.495941587211955	GO:0016070	GO:BP	RNA metabolic process
+0.511205037525308	GO:0001707	GO:BP	mesoderm formation
+0.523511842581402	GO:0045944	GO:BP	positive regulation of transcription by RNA polymerase II
+0.532632403935135	GO:1901576	GO:BP	organic substance biosynthetic process
+0.541678228334725	GO:0032501	GO:BP	multicellular organismal process
+0.545482690761916	GO:0009792	GO:BP	embryo development ending in birth or egg hatching
+0.565780424349332	GO:0048332	GO:BP	mesoderm morphogenesis
+0.591538958326737	GO:0031093	GO:CC	platelet alpha granule lumen
+0.68439902141587	GO:0009954	GO:BP	proximal/distal pattern formation
+0.710810221077492	GO:0048608	GO:BP	reproductive structure development
+0.728105983461455	GO:0048729	GO:BP	tissue morphogenesis
+0.730307350730035	GO:0030855	GO:BP	epithelial cell differentiation
+0.731733532515555	GO:0071837	GO:MF	HMG box domain binding
+0.744445001428674	GO:0061458	GO:BP	reproductive system development
+0.758551489981764	GO:0009058	GO:BP	biosynthetic process
+0.789994162021909	GO:0001570	GO:BP	vasculogenesis
+0.797460172301005	GO:0019904	GO:MF	protein domain specific binding
+0.833036057806593	GO:0097038	GO:CC	perinuclear endoplasmic reticulum
+0.920019263970763	GO:0044249	GO:BP	cellular biosynthetic process
+0.960192115476561	GO:0005159	GO:MF	insulin-like growth factor receptor binding
+0.961901708531431	GO:0031327	GO:BP	negative regulation of cellular biosynthetic process
+0.975316303773774	GO:0045647	GO:BP	negative regulation of erythrocyte differentiation

@@ -1,0 +1,482 @@
+p_value	term_id	source	term_name
+2.28295325032063e-07	GO:0071470	GO:BP	cellular response to osmotic stress
+1.57377768597222e-06	GO:0009952	GO:BP	anterior/posterior pattern specification
+2.79045272202108e-06	GO:0055075	GO:BP	potassium ion homeostasis
+3.951000734921691e-06	GO:0021532	GO:BP	neural tube patterning
+1.20191031725855e-05	GO:0035295	GO:BP	tube development
+1.37813911271439e-05	GO:1902188	GO:BP	positive regulation of viral release from host cell
+1.58789750471659e-05	GO:0006970	GO:BP	response to osmotic stress
+1.6478759229037197e-05	GO:0090596	GO:BP	sensory organ morphogenesis
+1.7222851895482002e-05	GO:0048568	GO:BP	embryonic organ development
+2.68206359704655e-05	GO:0086009	GO:BP	membrane repolarization
+2.84850386707417e-05	GO:0002520	GO:BP	immune system development
+3.7932198968609494e-05	GO:0048562	GO:BP	embryonic organ morphogenesis
+4.8419994384865e-05	GO:0048534	GO:BP	hematopoietic or lymphoid organ development
+5.3818744335527396e-05	GO:0010558	GO:BP	negative regulation of macromolecule biosynthetic process
+6.49360345207177e-05	GO:0061180	GO:BP	mammary gland epithelium development
+6.867989446846949e-05	GO:1903507	GO:BP	negative regulation of nucleic acid-templated transcription
+7.505850563095591e-05	GO:1902679	GO:BP	negative regulation of RNA biosynthetic process
+7.650737919258871e-05	GO:0003002	GO:BP	regionalization
+7.91925022093754e-05	GO:0010971	GO:BP	positive regulation of G2/M transition of mitotic cell cycle
+7.96274108660472e-05	GO:1902751	GO:BP	positive regulation of cell cycle G2/M phase transition
+8.541572064429399e-05	GO:0031327	GO:BP	negative regulation of cellular biosynthetic process
+9.0237971714546e-05	GO:0050673	GO:BP	epithelial cell proliferation
+9.10714526556292e-05	GO:0048598	GO:BP	embryonic morphogenesis
+9.508306100939621e-05	GO:0035136	GO:BP	forelimb morphogenesis
+0.000103367513950817	GO:0007507	GO:BP	heart development
+0.00010414667071474	GO:0009890	GO:BP	negative regulation of biosynthetic process
+0.000120895853291979	GO:0010629	GO:BP	negative regulation of gene expression
+0.00013770305134905902	GO:0045892	GO:BP	negative regulation of transcription, DNA-templated
+0.000144297472423899	GO:0051172	GO:BP	negative regulation of nitrogen compound metabolic process
+0.000153746041149729	GO:1902186	GO:BP	regulation of viral release from host cell
+0.00015880133972340902	GO:0051253	GO:BP	negative regulation of RNA metabolic process
+0.00016291403650136598	GO:0042693	GO:BP	muscle cell fate commitment
+0.00016814044070891202	GO:0051254	GO:BP	positive regulation of RNA metabolic process
+0.00019516208114182901	GO:2000113	GO:BP	negative regulation of cellular macromolecule biosynthetic process
+0.00020339613751166002	GO:0021915	GO:BP	neural tube development
+0.000219203355071637	GO:0019076	GO:BP	viral release from host cell
+0.000219203355071637	GO:0035890	GO:BP	exit from host
+0.000219203355071637	GO:0035891	GO:BP	exit from host cell
+0.000219203355071637	GO:0052126	GO:BP	movement in host environment
+0.000219203355071637	GO:0052192	GO:BP	movement in environment of other organism involved in symbiotic interaction
+0.00022567384973105	GO:0046579	GO:BP	positive regulation of Ras protein signal transduction
+0.0002259808495733	GO:0008171	GO:MF	O-methyltransferase activity
+0.000228524484957173	GO:0043565	GO:MF	sequence-specific DNA binding
+0.000243190617067463	GO:0050678	GO:BP	regulation of epithelial cell proliferation
+0.000253240062063895	GO:0045934	GO:BP	negative regulation of nucleobase-containing compound metabolic process
+0.000255000361938425	GO:0048641	GO:BP	regulation of skeletal muscle tissue development
+0.000257020740962198	GO:0003700	GO:MF	transcription factor activity, sequence-specific DNA binding
+0.000273347920279285	GO:0001071	GO:MF	nucleic acid binding transcription factor activity
+0.000295263496319091	GO:0019904	GO:MF	protein domain specific binding
+0.000319720273607111	GO:0021545	GO:BP	cranial nerve development
+0.000329092577877879	GO:0048741	GO:BP	skeletal muscle fiber development
+0.000330132527507539	GO:0035115	GO:BP	embryonic forelimb morphogenesis
+0.000333719255247758	GO:0035107	GO:BP	appendage morphogenesis
+0.000333719255247758	GO:0035108	GO:BP	limb morphogenesis
+0.000348229457185345	GO:0030165	GO:MF	PDZ domain binding
+0.00036783327136592	GO:0050679	GO:BP	positive regulation of epithelial cell proliferation
+0.000372163349464232	GO:0009790	GO:BP	embryo development
+0.00043243300042997	GO:0030857	GO:BP	negative regulation of epithelial cell differentiation
+0.00046885225316923494	GO:0060236	GO:BP	regulation of mitotic spindle organization
+0.0004913201219607639	GO:0045935	GO:BP	positive regulation of nucleobase-containing compound metabolic process
+0.00050240470752162	GO:0097094	GO:BP	craniofacial suture morphogenesis
+0.000504622339431958	GO:1900151	GO:BP	regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay
+0.000504622339431958	GO:1900153	GO:BP	positive regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay
+0.000573911661226179	GO:0045893	GO:BP	positive regulation of transcription, DNA-templated
+0.000573911661226179	GO:1903508	GO:BP	positive regulation of nucleic acid-templated transcription
+0.000573936309586633	GO:0051173	GO:BP	positive regulation of nitrogen compound metabolic process
+0.0005904924740789839	GO:0010830	GO:BP	regulation of myotube differentiation
+0.000593749138719791	GO:0048643	GO:BP	positive regulation of skeletal muscle tissue development
+0.0006036361420313509	GO:0007389	GO:BP	pattern specification process
+0.0006041970929531019	GO:0007368	GO:BP	determination of left/right symmetry
+0.000650322726067081	GO:0051057	GO:BP	positive regulation of small GTPase mediated signal transduction
+0.00067114092806583	GO:1904888	GO:BP	cranial skeletal system development
+0.000672012966446476	GO:0055067	GO:BP	monovalent inorganic cation homeostasis
+0.000695099476422625	GO:1902680	GO:BP	positive regulation of RNA biosynthetic process
+0.000712204988849883	GO:0007220	GO:BP	Notch receptor processing
+0.00073514360278385	GO:0048736	GO:BP	appendage development
+0.00073514360278385	GO:0060173	GO:BP	limb development
+0.000825774192911615	GO:0030326	GO:BP	embryonic limb morphogenesis
+0.000825774192911615	GO:0035113	GO:BP	embryonic appendage morphogenesis
+0.00085758915743178	GO:0046718	GO:BP	viral entry into host cell
+0.0008850474405896801	GO:0044090	GO:BP	positive regulation of vacuole organization
+0.00088770328472287	GO:0009954	GO:BP	proximal/distal pattern formation
+0.000897375535272809	GO:0030097	GO:BP	hemopoiesis
+0.0009217824737521211	GO:0030004	GO:BP	cellular monovalent inorganic cation homeostasis
+0.0009421121637436211	GO:0090169	GO:BP	regulation of spindle assembly
+0.0009474203786447779	GO:0071364	GO:BP	cellular response to epidermal growth factor stimulus
+0.0009538863876302919	GO:0031579	GO:BP	membrane raft organization
+0.000956738553514618	GO:0003351	GO:BP	epithelial cilium movement
+0.000997612991341265	GO:0021904	GO:BP	dorsal/ventral neural tube patterning
+0.00100706764761405	GO:0010831	GO:BP	positive regulation of myotube differentiation
+0.00103500951242079	GO:0010557	GO:BP	positive regulation of macromolecule biosynthetic process
+0.00112168432668294	GO:0009855	GO:BP	determination of bilateral symmetry
+0.00112733763698303	GO:0043588	GO:BP	skin development
+0.0011362716567366801	GO:0061099	GO:BP	negative regulation of protein tyrosine kinase activity
+0.00114138062910882	GO:0051402	GO:BP	neuron apoptotic process
+0.00114302376374769	GO:0045599	GO:BP	negative regulation of fat cell differentiation
+0.0012114656588486	GO:0007351	GO:BP	tripartite regional subdivision
+0.0012114656588486	GO:0008595	GO:BP	anterior/posterior axis specification, embryo
+0.0012345698599823699	GO:0009799	GO:BP	specification of symmetry
+0.00125301686201718	GO:0061014	GO:BP	positive regulation of mRNA catabolic process
+0.00125545584808293	GO:0006357	GO:BP	regulation of transcription from RNA polymerase II promoter
+0.0012971734997292699	GO:0042471	GO:BP	ear morphogenesis
+0.00132551363856276	GO:0035909	GO:BP	aorta morphogenesis
+0.0013328331673815401	GO:0042733	GO:BP	embryonic digit morphogenesis
+0.00137607547199081	GO:0045787	GO:BP	positive regulation of cell cycle
+0.0013980965808232599	GO:0001919	GO:BP	regulation of receptor recycling
+0.00143601454844321	GO:0070849	GO:BP	response to epidermal growth factor
+0.00145644880184262	GO:0014904	GO:BP	myotube cell development
+0.00150053735147755	GO:0007423	GO:BP	sensory organ development
+0.00155039045706654	GO:0060021	GO:BP	palate development
+0.00155042290102315	GO:0048538	GO:BP	thymus development
+0.00157604935944353	GO:0060840	GO:BP	artery development
+0.00162253225313184	GO:2000678	GO:BP	negative regulation of transcription regulatory region DNA binding
+0.0016316028569495	GO:0086011	GO:BP	membrane repolarization during action potential
+0.00167447018125867	GO:0030879	GO:BP	mammary gland development
+0.00173104679188769	GO:0009070	GO:BP	serine family amino acid biosynthetic process
+0.0017679537738721802	GO:0042813	GO:MF	Wnt-activated receptor activity
+0.0018476923872772601	GO:0072089	GO:BP	stem cell proliferation
+0.0018598641039389997	GO:0090224	GO:BP	regulation of spindle organization
+0.00186167668162026	GO:0014902	GO:BP	myotube differentiation
+0.0018632451872008199	GO:0021602	GO:BP	cranial nerve morphogenesis
+0.00194349819115377	GO:0000975	GO:MF	regulatory region DNA binding
+0.00196288331720476	GO:0008649	GO:MF	rRNA methyltransferase activity
+0.00198297801349333	GO:0030878	GO:BP	thyroid gland development
+0.00201006873069721	GO:0035137	GO:BP	hindlimb morphogenesis
+0.00209495674083203	GO:0001067	GO:MF	regulatory region nucleic acid binding
+0.00212839521396795	GO:0031328	GO:BP	positive regulation of cellular biosynthetic process
+0.002136043599744	GO:0070166	GO:BP	enamel mineralization
+0.00214229699297241	GO:0030260	GO:BP	entry into host cell
+0.00214229699297241	GO:0044409	GO:BP	entry into host
+0.00214229699297241	GO:0051806	GO:BP	entry into cell of other organism involved in symbiotic interaction
+0.00214229699297241	GO:0051828	GO:BP	entry into other organism involved in symbiotic interaction
+0.00214321941984117	GO:0070997	GO:BP	neuron death
+0.00218583969140323	GO:2001014	GO:BP	regulation of skeletal muscle cell differentiation
+0.0022030941302937698	GO:0000122	GO:BP	negative regulation of transcription from RNA polymerase II promoter
+0.0022516739151157	GO:0072359	GO:BP	circulatory system development
+0.0023323209501963397	GO:0048557	GO:BP	embryonic digestive tract morphogenesis
+0.00236658523148028	GO:0019058	GO:BP	viral life cycle
+0.00237452913279473	GO:0060306	GO:BP	regulation of membrane repolarization
+0.00255290428916255	GO:0048844	GO:BP	artery morphogenesis
+0.00257622280069767	GO:0072091	GO:BP	regulation of stem cell proliferation
+0.00263126802968738	GO:0051701	GO:BP	interaction with host
+0.00264164531997924	GO:0060443	GO:BP	mammary gland morphogenesis
+0.0026504286708945697	GO:0090068	GO:BP	positive regulation of cell cycle process
+0.00265451697081687	GO:0001881	GO:BP	receptor recycling
+0.00268896682328355	GO:0009891	GO:BP	positive regulation of biosynthetic process
+0.00276585145972001	GO:0031167	GO:BP	rRNA methylation
+0.00276689675984098	GO:0035239	GO:BP	tube morphogenesis
+0.00277513606808317	GO:2000737	GO:BP	negative regulation of stem cell differentiation
+0.0028606771032770604	GO:0045655	GO:BP	regulation of monocyte differentiation
+0.0028897565037291103	GO:0009948	GO:BP	anterior/posterior axis specification
+0.0029385117450440603	GO:0002521	GO:BP	leukocyte differentiation
+0.00297632091925249	GO:0032801	GO:BP	receptor catabolic process
+0.00304265148705539	GO:0000977	GO:MF	RNA polymerase II regulatory region sequence-specific DNA binding
+0.00307750956366768	GO:0000981	GO:MF	RNA polymerase II transcription factor activity, sequence-specific DNA binding
+0.00310523621311363	GO:0003206	GO:BP	cardiac chamber morphogenesis
+0.0031927084960823604	GO:0001012	GO:MF	RNA polymerase II regulatory region DNA binding
+0.0032564218658182897	GO:0045747	GO:BP	positive regulation of Notch signaling pathway
+0.00334522588832869	GO:0042472	GO:BP	inner ear morphogenesis
+0.00338366105058233	GO:0007498	GO:BP	mesoderm development
+0.0035828816461424295	GO:0043523	GO:BP	regulation of neuron apoptotic process
+0.0035968674175069298	GO:0036035	GO:BP	osteoclast development
+0.0036154761274984	GO:0060411	GO:BP	cardiac septum morphogenesis
+0.00363667741010815	GO:0017091	GO:MF	AU-rich element binding
+0.00363712828423523	GO:0045616	GO:BP	regulation of keratinocyte differentiation
+0.0037042297050492203	GO:0030183	GO:BP	B cell differentiation
+0.0037564352856418797	GO:0009887	GO:BP	animal organ morphogenesis
+0.00383839274178615	GO:0045931	GO:BP	positive regulation of mitotic cell cycle
+0.00389963838032605	GO:0042476	GO:BP	odontogenesis
+0.0041626479032372	GO:1901214	GO:BP	regulation of neuron death
+0.004237068963944679	GO:0048646	GO:BP	anatomical structure formation involved in morphogenesis
+0.00428079814363883	GO:0035025	GO:BP	positive regulation of Rho protein signal transduction
+0.00438175185627261	GO:0007519	GO:BP	skeletal muscle tissue development
+0.004584220079617771	GO:0060548	GO:BP	negative regulation of cell death
+0.0045879437304243795	GO:0022029	GO:BP	telencephalon cell migration
+0.00461987848007352	GO:0060644	GO:BP	mammary gland epithelial cell differentiation
+0.00464253042256309	GO:0021885	GO:BP	forebrain cell migration
+0.004668089634038071	GO:0048483	GO:BP	autonomic nervous system development
+0.00477256192404422	GO:0010564	GO:BP	regulation of cell cycle process
+0.0048204472759441	GO:0032964	GO:BP	collagen biosynthetic process
+0.0048401828612586704	GO:0035313	GO:BP	wound healing, spreading of epidermal cells
+0.00486720360270229	GO:0030856	GO:BP	regulation of epithelial cell differentiation
+0.00498113030566406	GO:0045296	GO:MF	cadherin binding
+0.00498858391390724	GO:0021675	GO:BP	nerve development
+0.004995167212435671	GO:0043009	GO:BP	chordate embryonic development
+0.00504860048167146	GO:0055078	GO:BP	sodium ion homeostasis
+0.00506666051272248	GO:0048747	GO:BP	muscle fiber development
+0.00519232831891607	GO:0044212	GO:MF	transcription regulatory region DNA binding
+0.00525047360951017	GO:0098641	GO:MF	cadherin binding involved in cell-cell adhesion
+0.00528011358193512	GO:0009792	GO:BP	embryo development ending in birth or egg hatching
+0.005374417067713071	GO:0051726	GO:BP	regulation of cell cycle
+0.0054407642942079296	GO:0030325	GO:BP	adrenal gland development
+0.0054978036770252205	GO:0060603	GO:BP	mammary gland duct morphogenesis
+0.00549791502357325	GO:0045944	GO:BP	positive regulation of transcription from RNA polymerase II promoter
+0.00555446204814244	GO:0033077	GO:BP	T cell differentiation in thymus
+0.005574514954240071	GO:1903313	GO:BP	positive regulation of mRNA metabolic process
+0.00571147239286801	GO:0007033	GO:BP	vacuole organization
+0.0057528829766605	GO:0007588	GO:BP	excretion
+0.00595848212817461	GO:0010941	GO:BP	regulation of cell death
+0.00604368637489396	GO:0061157	GO:BP	mRNA destabilization
+0.00612310876745541	GO:0050779	GO:BP	RNA destabilization
+0.006191969478789279	GO:0048704	GO:BP	embryonic skeletal system morphogenesis
+0.00636694609321192	GO:0048820	GO:BP	hair follicle maturation
+0.00647912392703635	GO:0021795	GO:BP	cerebral cortex cell migration
+0.0065076995963355	GO:0048705	GO:BP	skeletal system morphogenesis
+0.00656068776140318	GO:0010628	GO:BP	positive regulation of gene expression
+0.00677468375819405	GO:0045596	GO:BP	negative regulation of cell differentiation
+0.00686500948228674	GO:0004190	GO:MF	aspartic-type endopeptidase activity
+0.00693465094672219	GO:0070001	GO:MF	aspartic-type peptidase activity
+0.0070852096923102095	GO:0099622	GO:BP	cardiac muscle cell membrane repolarization
+0.00716932826801665	GO:0048593	GO:BP	camera-type eye morphogenesis
+0.0073807045676587794	GO:0086002	GO:BP	cardiac muscle cell action potential involved in contraction
+0.0077046257636806	GO:0000982	GO:MF	transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding
+0.0077648701964877	GO:0097186	GO:BP	amelogenesis
+0.00777396259799094	GO:0070182	GO:MF	DNA polymerase binding
+0.007794660779757059	GO:0043583	GO:BP	ear development
+0.00781557542489189	GO:0035116	GO:BP	embryonic hindlimb morphogenesis
+0.0080201111484817	GO:0061013	GO:BP	regulation of mRNA catabolic process
+0.00835791128676721	GO:0007350	GO:BP	blastoderm segmentation
+0.00838563390299936	GO:0042474	GO:BP	middle ear morphogenesis
+0.00856020760058649	GO:0003007	GO:BP	heart morphogenesis
+0.00859195257942064	GO:0048729	GO:BP	tissue morphogenesis
+0.00869943670256662	GO:0009069	GO:BP	serine family amino acid metabolic process
+0.00870607783689881	GO:0048145	GO:BP	regulation of fibroblast proliferation
+0.008731418853134559	GO:0048592	GO:BP	eye morphogenesis
+0.00881329973978528	GO:0044088	GO:BP	regulation of vacuole organization
+0.00884910566007356	GO:0071392	GO:BP	cellular response to estradiol stimulus
+0.00893377559669762	GO:0001947	GO:BP	heart looping
+0.0089826855986394	GO:0060562	GO:BP	epithelial tube morphogenesis
+0.00902317325909278	GO:0034505	GO:BP	tooth mineralization
+0.009034844382310291	GO:0003012	GO:BP	muscle system process
+0.0091053891616676	GO:0048144	GO:BP	fibroblast proliferation
+0.009372909186077829	GO:0010984	GO:BP	regulation of lipoprotein particle clearance
+0.00937582020736692	GO:0003151	GO:BP	outflow tract morphogenesis
+0.00966675832035705	GO:0021514	GO:BP	ventral spinal cord interneuron differentiation
+0.00973309179397096	GO:0030216	GO:BP	keratinocyte differentiation
+0.00998123860175345	GO:0061371	GO:BP	determination of heart left/right asymmetry
+0.0100562780118574	GO:0060538	GO:BP	skeletal muscle organ development
+0.0102834042093042	GO:0001654	GO:BP	eye development
+0.0103450266276895	GO:0043010	GO:BP	camera-type eye development
+0.0104257133922965	GO:1901992	GO:BP	positive regulation of mitotic cell cycle phase transition
+0.0107945969232912	GO:0048706	GO:BP	embryonic skeletal system development
+0.0108616189466587	GO:0002011	GO:BP	morphogenesis of an epithelial sheet
+0.0109523535594121	GO:0042127	GO:BP	regulation of cell proliferation
+0.0110453873231135	GO:0033599	GO:BP	regulation of mammary gland epithelial cell proliferation
+0.0112001117699516	GO:0044319	GO:BP	wound healing, spreading of cells
+0.0112001117699516	GO:0090505	GO:BP	epiboly involved in wound healing
+0.0112250935749348	GO:0032869	GO:BP	cellular response to insulin stimulus
+0.0113262540087012	GO:0001501	GO:BP	skeletal system development
+0.0114745709779328	GO:0090504	GO:BP	epiboly
+0.0116779836593855	GO:0000976	GO:MF	transcription regulatory region sequence-specific DNA binding
+0.011975468470908999	GO:1901989	GO:BP	positive regulation of cell cycle phase transition
+0.0119874863720236	GO:0048806	GO:BP	genitalia development
+0.0128772794362513	GO:0001708	GO:BP	cell fate specification
+0.013040211538098999	GO:0045165	GO:BP	cell fate commitment
+0.0133543936338664	GO:0040020	GO:BP	regulation of meiotic nuclear division
+0.0138064330758096	GO:0045577	GO:BP	regulation of B cell differentiation
+0.0138093288200392	GO:0048665	GO:BP	neuron fate specification
+0.0138851671571271	GO:1901215	GO:BP	negative regulation of neuron death
+0.0139250404979662	GO:0048839	GO:BP	inner ear development
+0.0141866050479642	GO:0045236	GO:MF	CXCR chemokine receptor binding
+0.0146968533392677	GO:0035904	GO:BP	aorta development
+0.0150573065503632	GO:1903902	GO:BP	positive regulation of viral life cycle
+0.015098840366209999	GO:0048732	GO:BP	gland development
+0.0151900021983964	GO:0003690	GO:MF	double-stranded DNA binding
+0.0151938162920967	GO:0030104	GO:BP	water homeostasis
+0.015305596111672	GO:0072525	GO:BP	pyridine-containing compound biosynthetic process
+0.0153086505427733	GO:0001944	GO:BP	vasculature development
+0.0154472036883069	GO:0000989	GO:MF	transcription factor activity, transcription factor binding
+0.015510842082753	GO:0019827	GO:BP	stem cell population maintenance
+0.0155161450548875	GO:2000677	GO:BP	regulation of transcription regulatory region DNA binding
+0.0156650656058678	GO:0090307	GO:BP	mitotic spindle assembly
+0.0156998420955335	GO:0032781	GO:BP	positive regulation of ATPase activity
+0.0157818851261965	GO:1901990	GO:BP	regulation of mitotic cell cycle phase transition
+0.0158756292220284	GO:1902043	GO:BP	positive regulation of extrinsic apoptotic signaling pathway via death domain receptors
+0.0162942123221611	GO:0044058	GO:BP	regulation of digestive system process
+0.0163933811376266	GO:0060632	GO:BP	regulation of microtubule-based movement
+0.0165216592256896	GO:0055002	GO:BP	striated muscle cell development
+0.0165977833263119	GO:0006544	GO:BP	glycine metabolic process
+0.0166461270930176	GO:0045604	GO:BP	regulation of epidermal cell differentiation
+0.0166858188548951	GO:0007202	GO:BP	activation of phospholipase C activity
+0.0168147426216241	GO:0045598	GO:BP	regulation of fat cell differentiation
+0.0170510487887846	GO:0000988	GO:MF	transcription factor activity, protein binding
+0.0170878435638444	GO:0007265	GO:BP	Ras protein signal transduction
+0.0170908553532065	GO:0007029	GO:BP	endoplasmic reticulum organization
+0.0171059995801621	GO:0060444	GO:BP	branching involved in mammary gland duct morphogenesis
+0.017551739270885	GO:0009888	GO:BP	tissue development
+0.017580261669488	GO:0007176	GO:BP	regulation of epidermal growth factor-activated receptor activity
+0.0176137299370089	GO:0098727	GO:BP	maintenance of cell number
+0.017642204436489	GO:0001656	GO:BP	metanephros development
+0.0177178272601831	GO:0060429	GO:BP	epithelium development
+0.0178272025449138	GO:0001159	GO:MF	core promoter proximal region DNA binding
+0.0179974749639645	GO:0072358	GO:BP	cardiovascular system development
+0.0180640305672628	GO:0061061	GO:BP	muscle structure development
+0.0180673403525943	GO:0008284	GO:BP	positive regulation of cell proliferation
+0.0182158508536072	GO:1990837	GO:MF	sequence-specific double-stranded DNA binding
+0.0183047425722356	GO:0035019	GO:BP	somatic stem cell population maintenance
+0.0184851325639154	GO:0071385	GO:BP	cellular response to glucocorticoid stimulus
+0.0187927769227849	GO:0003143	GO:BP	embryonic heart tube morphogenesis
+0.0187957522258142	GO:0010107	GO:BP	potassium ion import
+0.0188304510466968	GO:0043525	GO:BP	positive regulation of neuron apoptotic process
+0.0189076432359614	GO:0051651	GO:BP	maintenance of location in cell
+0.0192407550627523	GO:0030540	GO:BP	female genitalia development
+0.0196070333799057	GO:0071384	GO:BP	cellular response to corticosteroid stimulus
+0.0198081005929676	GO:0045665	GO:BP	negative regulation of neuron differentiation
+0.0199910659455175	GO:0002566	GO:BP	somatic diversification of immune receptors via somatic mutation
+0.0202585113229042	GO:0003205	GO:BP	cardiac chamber development
+0.0205333528879641	GO:0072080	GO:BP	nephron tubule development
+0.0206535708533433	GO:0043067	GO:BP	regulation of programmed cell death
+0.0207149696013638	GO:0002573	GO:BP	myeloid leukocyte differentiation
+0.0207697881213569	GO:0009798	GO:BP	axis specification
+0.0212912893360721	GO:0060323	GO:BP	head morphogenesis
+0.0213003444890175	GO:0043586	GO:BP	tongue development
+0.0213598848572107	GO:2000272	GO:BP	negative regulation of receptor activity
+0.0214728744444613	GO:0070491	GO:MF	repressing transcription factor binding
+0.02158951405407	GO:0044344	GO:BP	cellular response to fibroblast growth factor stimulus
+0.0217272545786524	GO:0032366	GO:BP	intracellular sterol transport
+0.0217272545786524	GO:0032367	GO:BP	intracellular cholesterol transport
+0.0217684827057711	GO:0007096	GO:BP	regulation of exit from mitosis
+0.0219399847799624	GO:0014037	GO:BP	Schwann cell differentiation
+0.0221404943911225	GO:0031210	GO:MF	phosphatidylcholine binding
+0.0221404943911225	GO:0050997	GO:MF	quaternary ammonium group binding
+0.0225286165451153	GO:0086013	GO:BP	membrane repolarization during cardiac muscle cell action potential
+0.0226234073236551	GO:0042994	GO:BP	cytoplasmic sequestering of transcription factor
+0.0227445186073931	GO:0061326	GO:BP	renal tubule development
+0.0230310394063032	GO:0051445	GO:BP	regulation of meiotic cell cycle
+0.023228986185851005	GO:0019829	GO:MF	cation-transporting ATPase activity
+0.0234259865661407	GO:0008283	GO:BP	cell proliferation
+0.0234588618446124	GO:0098751	GO:BP	bone cell development
+0.0236117205278687	GO:0032410	GO:BP	negative regulation of transporter activity
+0.0236772677258913	GO:0071774	GO:BP	response to fibroblast growth factor
+0.0237092957150993	GO:0003714	GO:MF	transcription corepressor activity
+0.0237645070178053	GO:0070034	GO:MF	telomerase RNA binding
+0.024155899115979002	GO:0002710	GO:BP	negative regulation of T cell mediated immunity
+0.0243285048932957	GO:0086003	GO:BP	cardiac muscle cell contraction
+0.0245910178406442	GO:0048524	GO:BP	positive regulation of viral process
+0.0246182567990723	GO:0030316	GO:BP	osteoclast differentiation
+0.0246191933307216	GO:0032941	GO:BP	secretion by tissue
+0.0247768058197421	GO:0050732	GO:BP	negative regulation of peptidyl-tyrosine phosphorylation
+0.0249026472947884	GO:0008593	GO:BP	regulation of Notch signaling pathway
+0.02499679410399	GO:1901379	GO:BP	regulation of potassium ion transmembrane transport
+0.0253625754179576	GO:0048147	GO:BP	negative regulation of fibroblast proliferation
+0.0253851287888219	GO:0042056	GO:MF	chemoattractant activity
+0.0259396099746191	GO:0030224	GO:BP	monocyte differentiation
+0.0259396099746191	GO:1903131	GO:BP	mononuclear cell differentiation
+0.0260792887232739	GO:0000030	GO:MF	mannosyltransferase activity
+0.0261370744205254	GO:0004402	GO:MF	histone acetyltransferase activity
+0.0261907533841375	GO:0061733	GO:MF	peptide-lysine-N-acetyltransferase activity
+0.0267037387829906	GO:0000920	GO:BP	cell separation after cytokinesis
+0.0267967185314655	GO:0001508	GO:BP	action potential
+0.0268172658034066	GO:0048566	GO:BP	embryonic digestive tract development
+0.0269264986250049	GO:0042475	GO:BP	odontogenesis of dentin-containing tooth
+0.0271868074876737	GO:0042391	GO:BP	regulation of membrane potential
+0.0273175182202493	GO:0001938	GO:BP	positive regulation of endothelial cell proliferation
+0.0275591491033977	GO:0051093	GO:BP	negative regulation of developmental process
+0.0276094420098953	GO:0003014	GO:BP	renal system process
+0.0276902618119031	GO:0090103	GO:BP	cochlea morphogenesis
+0.0278047972579344	GO:0046961	GO:MF	proton-transporting ATPase activity, rotational mechanism
+0.0278631190352382	GO:0001568	GO:BP	blood vessel development
+0.028078135999149	GO:0001937	GO:BP	negative regulation of endothelial cell proliferation
+0.0285840335445963	GO:1901381	GO:BP	positive regulation of potassium ion transmembrane transport
+0.0287576599426174	GO:0050885	GO:BP	neuromuscular process controlling balance
+0.0291719994439329	GO:0030098	GO:BP	lymphocyte differentiation
+0.0292566506000736	GO:0000978	GO:MF	RNA polymerase II core promoter proximal region sequence-specific DNA binding
+0.0293268826159262	GO:0051146	GO:BP	striated muscle cell differentiation
+0.0293788888428208	GO:0048663	GO:BP	neuron fate commitment
+0.0294077041235036	GO:0043069	GO:BP	negative regulation of programmed cell death
+0.0298804079536252	GO:1901987	GO:BP	regulation of cell cycle phase transition
+0.0299874989075823	GO:0098632	GO:MF	protein binding involved in cell-cell adhesion
+0.0305508117534568	GO:0039702	GO:BP	viral budding via host ESCRT complex
+0.0305768473008346	GO:1902305	GO:BP	regulation of sodium ion transmembrane transport
+0.0306826865109827	GO:0048745	GO:BP	smooth muscle tissue development
+0.0308820397197383	GO:0043524	GO:BP	negative regulation of neuron apoptotic process
+0.0315028579233145	GO:0048863	GO:BP	stem cell differentiation
+0.0317855512706918	GO:0016755	GO:MF	transferase activity, transferring amino-acyl groups
+0.031961841491632004	GO:0045125	GO:MF	bioactive lipid receptor activity
+0.0320056536607579	GO:0000288	GO:BP	nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay
+0.032160160078999	GO:0008173	GO:MF	RNA methyltransferase activity
+0.0324980895216205	GO:0090026	GO:BP	positive regulation of monocyte chemotaxis
+0.032584909153704	GO:0048384	GO:BP	retinoic acid receptor signaling pathway
+0.0329159539814659	GO:0048634	GO:BP	regulation of muscle organ development
+0.0329554281399584	GO:0022408	GO:BP	negative regulation of cell-cell adhesion
+0.0330825823728181	GO:0045444	GO:BP	fat cell differentiation
+0.0332101446425534	GO:0035050	GO:BP	embryonic heart tube development
+0.033544353440968	GO:0016601	GO:BP	Rac protein signal transduction
+0.0335718207150603	GO:0034212	GO:MF	peptide N-acetyltransferase activity
+0.0336255717108402	GO:0060415	GO:BP	muscle tissue morphogenesis
+0.0336419684223369	GO:0016236	GO:BP	macroautophagy
+0.0336866603956129	GO:0007035	GO:BP	vacuolar acidification
+0.0341542163936056	GO:0043462	GO:BP	regulation of ATPase activity
+0.0343447781149419	GO:0006936	GO:BP	muscle contraction
+0.0345270111221637	GO:0042308	GO:BP	negative regulation of protein import into nucleus
+0.0345270111221637	GO:1904590	GO:BP	negative regulation of protein import
+0.0345662963939532	GO:0060048	GO:BP	cardiac muscle contraction
+0.0350788560257682	GO:0022402	GO:BP	cell cycle process
+0.0351420891382764	GO:0007589	GO:BP	body fluid secretion
+0.0351556998771812	GO:1902692	GO:BP	regulation of neuroblast proliferation
+0.0354067939083681	GO:0032868	GO:BP	response to insulin
+0.0355508758263624	GO:0030539	GO:BP	male genitalia development
+0.0358096463936376	GO:0015813	GO:BP	L-glutamate transport
+0.0358544300310271	GO:0042981	GO:BP	regulation of apoptotic process
+0.0360533461261801	GO:0044772	GO:BP	mitotic cell cycle phase transition
+0.0360536680294543	GO:0046755	GO:BP	viral budding
+0.0360536680294543	GO:1902590	GO:BP	multi-organism organelle organization
+0.0360536680294543	GO:1902592	GO:BP	multi-organism membrane budding
+0.0361068514969308	GO:0021801	GO:BP	cerebral cortex radial glia guided migration
+0.0361068514969308	GO:0022030	GO:BP	telencephalon glial cell migration
+0.0365592608026478	GO:0051899	GO:BP	membrane depolarization
+0.0367603635551845	GO:0003279	GO:BP	cardiac septum development
+0.0367814383082496	GO:0043241	GO:BP	protein complex disassembly
+0.0368222170155292	GO:0042692	GO:BP	muscle cell differentiation
+0.0370591735162803	GO:0017147	GO:MF	Wnt-protein binding
+0.0372056074648418	GO:0008009	GO:MF	chemokine activity
+0.0372408506372352	GO:0048644	GO:BP	muscle organ morphogenesis
+0.0376131465249586	GO:0061351	GO:BP	neural precursor cell proliferation
+0.0377559298047824	GO:0043616	GO:BP	keratinocyte proliferation
+0.0383931502175101	GO:0021513	GO:BP	spinal cord dorsal/ventral patterning
+0.0386552793711225	GO:0003091	GO:BP	renal water homeostasis
+0.0390880577695706	GO:0007049	GO:BP	cell cycle
+0.03914012766316	GO:0055102	GO:MF	lipase inhibitor activity
+0.0393965374758704	GO:0051020	GO:MF	GTPase binding
+0.0397419743981135	GO:0031440	GO:BP	regulation of mRNA 3'-end processing
+0.0403698925535087	GO:0050768	GO:BP	negative regulation of neurogenesis
+0.0403890661790044	GO:0042992	GO:BP	negative regulation of transcription factor import into nucleus
+0.0405490788496383	GO:0033158	GO:BP	regulation of protein import into nucleus, translocation
+0.0405953558608562	GO:0000154	GO:BP	rRNA modification
+0.0407238570147683	GO:1903038	GO:BP	negative regulation of leukocyte cell-cell adhesion
+0.0407575499443952	GO:0046599	GO:BP	regulation of centriole replication
+0.0409165789113213	GO:0046337	GO:BP	phosphatidylethanolamine metabolic process
+0.0410715978279984	GO:1901216	GO:BP	positive regulation of neuron death
+0.0410787779611037	GO:0086010	GO:BP	membrane depolarization during action potential
+0.0411817347568224	GO:0035282	GO:BP	segmentation
+0.0412934102703935	GO:0035725	GO:BP	sodium ion transmembrane transport
+0.0413141974707242	GO:0030900	GO:BP	forebrain development
+0.041473104506018994	GO:0043162	GO:BP	ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway
+0.0420299742034336	GO:0055001	GO:BP	muscle cell development
+0.0425125440318722	GO:0032651	GO:BP	regulation of interleukin-1 beta production
+0.0427055516668226	GO:0001618	GO:MF	virus receptor activity
+0.042910258074222996	GO:0060485	GO:BP	mesenchyme development
+0.0429331940865294	GO:0048854	GO:BP	brain morphogenesis
+0.0429521554743135	GO:0010389	GO:BP	regulation of G2/M transition of mitotic cell cycle
+0.0432804638925361	GO:0060333	GO:BP	interferon-gamma-mediated signaling pathway
+0.0433410010646826	GO:0072009	GO:BP	nephron epithelium development
+0.0434252394105277	GO:0003712	GO:MF	transcription cofactor activity
+0.04346187512917601	GO:0051783	GO:BP	regulation of nuclear division
+0.0434993920329363	GO:0098631	GO:MF	protein binding involved in cell adhesion
+0.0436292471284159	GO:0035082	GO:BP	axoneme assembly
+0.0436331307038556	GO:0000979	GO:MF	RNA polymerase II core promoter sequence-specific DNA binding
+0.0437019004935717	GO:0036442	GO:MF	hydrogen-exporting ATPase activity
+0.0439171029611975	GO:0050927	GO:BP	positive regulation of positive chemotaxis
+0.0448364890680969	GO:0006362	GO:BP	transcription elongation from RNA polymerase I promoter
+0.0449909737910267	GO:0055006	GO:BP	cardiac cell development
+0.0451269745293032	GO:0033572	GO:BP	transferrin transport
+0.0453839718890204	GO:0033598	GO:BP	mammary gland epithelial cell proliferation
+0.045888708772796	GO:0001510	GO:BP	RNA methylation
+0.0461286878588266	GO:1903363	GO:BP	negative regulation of cellular protein catabolic process
+0.0466433966872183	GO:0050926	GO:BP	regulation of positive chemotaxis
+0.0467801112952515	GO:0031648	GO:BP	protein destabilization
+0.0472453430626007	GO:0032465	GO:BP	regulation of cytokinesis
+0.0476124076230027	GO:0000987	GO:MF	core promoter proximal region sequence-specific DNA binding
+0.0476848315148197	GO:0002009	GO:BP	morphogenesis of an epithelium
+0.0477658140915052	GO:0048754	GO:BP	branching morphogenesis of an epithelial tube
+0.047825943007942	GO:0086001	GO:BP	cardiac muscle cell action potential
+0.0481997323661398	GO:0001671	GO:MF	ATPase activator activity
+0.0482565050417057	GO:0043487	GO:BP	regulation of RNA stability
+0.0484429598004366	GO:0015800	GO:BP	acidic amino acid transport
+0.0485051381460431	GO:0051220	GO:BP	cytoplasmic sequestering of protein
+0.0487112217831322	GO:0046823	GO:BP	negative regulation of nucleocytoplasmic transport
+0.0488352888255055	GO:0045639	GO:BP	positive regulation of myeloid cell differentiation
+0.0488494720605634	GO:0036258	GO:BP	multivesicular body assembly
+0.0490045511981375	GO:2000406	GO:BP	positive regulation of T cell migration
+0.0495924462167544	GO:0045595	GO:BP	regulation of cell differentiation
+0.0499029729542201	GO:0007051	GO:BP	spindle organization
+0.0192917169766064	GO:0032553	GO:MF	ribonucleotide binding
+0.0208020994297139	GO:0017076	GO:MF	purine nucleotide binding
+0.0215006798931641	GO:0032555	GO:MF	purine ribonucleotide binding
+0.0308379398754161	GO:0005102	GO:MF	receptor binding
+0.0327643919758923	GO:0035639	GO:MF	purine ribonucleoside triphosphate binding
+0.0385152811862234	GO:0030554	GO:MF	adenyl nucleotide binding
+0.0391516747164029	GO:0032559	GO:MF	adenyl ribonucleotide binding
+0.04664391856966599	GO:0055114	GO:BP	oxidation-reduction process
