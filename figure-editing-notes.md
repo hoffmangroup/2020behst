@@ -10,8 +10,8 @@
 - [Addressed] Figure 3: Remove best/worst parameters, compare 3D/3D + linear/linear
 - [Addressed] Figure 3: Upper case: gProfiler
 - [Addressed] Figure 3: BP only, don't need MF
-- Figure 4: Add a label for colorbar
-- Figure 4: Upper/lower case: GO term
+- [Addressed] Figure 4: Add a label for colorbar
+- [Addressed] Figure 4: Upper/lower case: GO term
 - Figure 5: Make the title of ‘node size’ more specific, add a value in middle
 - Figure 5: q-value: add more ticks
 - Figure 5: Add a legend for edge
