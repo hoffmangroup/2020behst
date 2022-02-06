@@ -20,5 +20,7 @@
 ### Issues and to-do list with data
 - Shuffling test: redo the shuffles with updated parameters
 - Biobank figure:
-  - script to generate GO terms
-  - Cytoscape file
+  - Edit uppercase of labels
+  - Reduce edges shown?
+  - Change cluster name
+  - Generate legend
