@@ -7,11 +7,21 @@ from matplotlib.patches import Polygon, Rectangle
 from matplotlib.collections import PatchCollection
 from matplotlib.ticker import MultipleLocator, NullLocator
 from mpl_toolkits.axes_grid1 import make_axes_locatable
+import matplotlib.ticker as ticker
 
 import os
 
 path = './data/shuffling_test/'
 
+def fmt(x, pos):
+    """
+    Format number with scientific notation.
+    """
+    cut_off = -5
+    if x > cut_off:
+      return "{:.5f}".format(pow(10,x)).rstrip('0').rstrip('.')
+    else:
+      return r'$10^{{{}}}$'.format(format(x).rstrip('0').rstrip('.'))
 
 def triangle_plotter():
     """
@@ -60,8 +70,7 @@ def rectangle_plotter():
 
     return patch1
 
-
-def rectangle_heatmap_plotter(ax, filename, title, last_row):
+def rectangle_heatmap_plotter(ax, filename, title, last_row, first_col):
     """
 
     :param ax:
@@ -80,27 +89,31 @@ def rectangle_heatmap_plotter(ax, filename, title, last_row):
     color = np.loadtxt(file_name, delimiter=',')
 
     p.set_array(np.array(color))
-    p.set_clim([1, -12])
+    p.set_clim([0, -12])
     ax.add_collection(p)
 
     # set y axis
-    ax.yaxis.set_major_locator(MultipleLocator(1))
-    ax.set_yticks([t + 0.5 for t in range(10)])
-    ylabels = ['{}'.format((i) * 3100 + 100) for i in range(10)]
-    ax.set_yticklabels(ylabels, rotation=0, fontsize=10)
-    ax.set_ylabel('query extension (bp)')
+    if first_col:
+        ax.yaxis.set_major_locator(MultipleLocator(1))
+        ax.set_yticks([t + 0.5 for t in range(10)])
+        ylabels = ['{}'.format((i) * 3100 + 100) for i in range(10)]
+        ax.set_yticklabels(ylabels, rotation=0, fontsize=12)
+        ax.set_ylabel('query extension (bp)', fontsize=16)
+    else:
+        ax.set_yticks([])
 
     # set x axis
     if last_row:
         ax.xaxis.set_major_locator(MultipleLocator(1))
         ax.set_xticks([t + 0.5 for t in range(10)])
         xlabels = ['{}'.format(i * 3000 + 100) for i in range(10)]
-        ax.set_xticklabels(xlabels, rotation=30, fontsize=8)
-        ax.set_xlabel('target extension (bp)')
+        ax.set_xticklabels(xlabels, rotation=60, fontsize=12)
+        ax.set_xlabel('target extension (bp)', fontsize=16)
     else:
-        ax.xaxis.set_ticks_position('none')
+        ax.set_xticks([])
 
-    ax.set_title(title, fontsize=14)
+
+    ax.set_title(title, fontsize=16)
     ax.set_aspect('equal')
     ax.set_xlim(0, 10)
     ax.set_ylim(0, 10)
@@ -115,9 +128,6 @@ def rectangle_heatmap_plotter(ax, filename, title, last_row):
 
     for tic in ax.xaxis.get_major_ticks():
         tic.tick1On = tic.tick2On = False
-
-#     plt.xlabel('target extension')
-#     plt.ylabel('query extension')
 
 
 def triangle_heatmap_plotter(ax, filename, title, last_row, colorbar, edge):
@@ -147,29 +157,22 @@ def triangle_heatmap_plotter(ax, filename, title, last_row, colorbar, edge):
     color = np.loadtxt(file_name, delimiter=',')
 
     p.set_array(np.array(color))
-    p.set_clim([1, -12])
+    p.set_clim([0, -12])
     ax.add_collection(p)
 
-    # set y axis
-    #     ax.yaxis.set_major_locator(MultipleLocator(1))
-    #     ax.set_yticks([t + 0.5 for t in range(10)])
-    #     ylabels = ['{}'.format((i) * 3100 + 100) for i in range(10)]
-    #     ax.set_yticklabels(ylabels, rotation = 0, fontsize = 10)
-    #     ax.set_ylabel('query extension (bp)')
-
-    ax.yaxis.set_ticks_position('none')
+    ax.set_yticks([])
 
     # set x axis
     if last_row:
         ax.xaxis.set_major_locator(MultipleLocator(1))
         ax.set_xticks([t + 0.5 for t in range(10)])
         xlabels = ['{}'.format(i * 3000 + 100) for i in range(10)]
-        ax.set_xticklabels(xlabels, rotation=30, fontsize=8)
-        ax.set_xlabel('target extension (bp)')
+        ax.set_xticklabels(xlabels, rotation=60, fontsize=12)
+        ax.set_xlabel('target extension (bp)', fontsize=16)
     else:
-        ax.xaxis.set_ticks_position('none')
+        ax.set_xticks([])
 
-    ax.set_title(title, fontsize=14)
+    ax.set_title(title, fontsize=16)
     ax.set_aspect('equal')
     ax.set_xlim(0, 10)
     ax.set_ylim(0, 10)
@@ -191,11 +194,15 @@ def triangle_heatmap_plotter(ax, filename, title, last_row, colorbar, edge):
 def diagonal_heatmap():
     tissue_names = ['limb', 'eye', 'nose', 'forebrain', 'midbrain', 'hindbrain',
                     'heart']
+    fig, axes = plt.subplots(4, 6, figsize=(20,16))
 
-    fig, axes = plt.subplots(7, 3, sharex=True, sharey=True, figsize=(20, 25))
+#    fig, axes = plt.subplots(4, 6, sharex=True, sharey=True, figsize=(20,16))
+    axes[3,3].axis('off')
+    axes[3,4].axis('off')
+    axes[3,5].axis('off')
 
     # plot heatmap by row (one tissue at a time)
-    for i in range(len(tissue_names) - 1):
+    for i in range(len(tissue_names)):
         title1 = tissue_names[i] + ' original'
         title2 = tissue_names[i] + ' total'
         title3 = tissue_names[i] + ' tss'
@@ -204,44 +211,52 @@ def diagonal_heatmap():
         file2 = tissue_names[i] + '_total.csv'
         file3 = tissue_names[i] + '_tss.csv'
 
-        rectangle_heatmap_plotter(axes[i, 0], file1, title1, False)
-        triangle_heatmap_plotter(axes[i, 1], file2, title2, False,
+        i_ax = i if i < 4 else i - 4
+        j_ax_shift = 0 if i < 4 else 3
+        
+        plot_xlabel = True if i == 3 or i == 6 else False
+        plot_ylabel = True if i < 4 else False
+        rectangle_heatmap_plotter(axes[i_ax, 0 + j_ax_shift], file1, title1, plot_xlabel, plot_ylabel)
+        triangle_heatmap_plotter(axes[i_ax, 1 + j_ax_shift], file2, title2, plot_xlabel,
                                  False, False)
-        triangle_heatmap_plotter(axes[i, 2], file3, title3, False,
+        triangle_heatmap_plotter(axes[i_ax, 2 + j_ax_shift], file3, title3, plot_xlabel,
                                  False, False)
+        # Add highlight rectangle
+        for j in range(3):
+            axes[i_ax, j + j_ax_shift].add_patch(Rectangle((4,5), 1, 1, fill=False, edgecolor='lawngreen', lw=3))
 
-        # set y axis
-        axes[i, 0].yaxis.set_major_locator(MultipleLocator(1))
-        axes[i, 0].set_yticks([t + 0.5 for t in range(10)])
-        axes[i, 0] = ['{}'.format((j) * 3100 + 100) for j in range(10)]
-        # axes[i,0].set_yticklabels(ylabels, rotation = 0, fontsize = 10)
-        # axes[i,0].set_ylabel('query extension')
-
-        axes[i, 1].set_xticks([])
-        axes[i, 2].set_yticks([])
-
-    # plot last row, include x-axis labels
-    rectangle_heatmap_plotter(axes[6, 0], 'heart_original.csv',
-                              'heart original', True)
-    triangle_heatmap_plotter(axes[6, 1], 'heart_total.csv', 'heart total', True,
-                             False, False)
-    triangle_heatmap_plotter(axes[6, 2], 'heart_tss.csv', 'heart tss', True,
-                             False, False)
+        #axes[i_ax, 1 + j_ax_shift].set_xticks([])
+        #axes[i_ax, 2 + j_ax_shift].set_yticks([])
 
     fig.tight_layout(pad=1.0, w_pad=0.8, h_pad=1.2)
+    plt.subplots_adjust(bottom=0.15, right=0.9, top=0.9)
 
-    plt.subplots_adjust(bottom=0.15, right=0.5, top=0.9)
+    # plot triangle icons    
+    axes[3,3].axis([0,1,0,1])
+    icon_patch = [plt.Polygon([[0.02, 0.22],[0.22, 0.22],[0.02, 0.02]]), plt.Polygon([[0.02, 0.02],[.22, .22],[.22, 0.02]])]
+    p = PatchCollection(icon_patch, cmap='RdYlBu', alpha=0.6)
+    p.set_edgecolor('white')
+    p.set_array([-2, -6])
+    p.set_clim([-12, 0])
+    axes[3,3].add_collection(p)
 
+    axes[3,3].plot([0.02, 0.02, 0.22, 0.22, 0.02], [0.02, 0.22, 0.22, 0.02, 0.02], 'k')
+    axes[3,3].text(0.01, 0.24, "75%", fontsize = 12)
+    axes[3,3].text(0.08, -0.06, "25%", fontsize = 12)   
+ 
     # plot colorbar
-    cax = fig.add_axes([0.475, 0.3, 0.015, 0.4])
+    cax = fig.add_axes([0.48, 0.24, 0.4, 0.012])
     cmap = mpl.cm.RdYlBu
-    norm = mpl.colors.Normalize(vmin=-12, vmax=1)
+    norm = mpl.colors.Normalize(vmin=-12, vmax=0)
 
     cb1 = mpl.colorbar.ColorbarBase(cax, cmap=cmap,
                                     norm=norm, alpha=0.6,
-                                    orientation='vertical')
-    cb1.set_label('log10(q-value)')
-    plt.savefig('shuffling_test.png')
+                                    orientation='horizontal',
+                                    format=ticker.FuncFormatter(fmt))
+    cb1.ax.tick_params(labelsize=14)
+    cb1.set_label('q-value', size = 16, labelpad=-60)
+    plt.savefig('shuffling_test.png', bbox_inches="tight")
+
 
 
 if __name__ == '__main__':
