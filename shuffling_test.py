@@ -11,7 +11,7 @@ import matplotlib.ticker as ticker
 
 import os
 
-path = './data/shuffling_test/'
+path = './data/shuffling_test_2022/'
 
 def fmt(x, pos):
     """
@@ -32,9 +32,9 @@ def triangle_plotter():
 
     # get coordinates of triangles
     # loop through each row, from top to bottom, so use reversed range
-    for y_corr in reversed(range(10)):
+    for y_corr in reversed(range(11)):
         # loop through each column
-        for x_corr in range(10):
+        for x_corr in range(11):
             # upper triangle
             index1 = [[x_corr, y_corr], [x_corr + 1, y_corr + 1],
                       [x_corr, y_corr + 1]]
@@ -61,9 +61,9 @@ def rectangle_plotter():
 
     # get coordinates of rectangles
     # loop through each row, from top to bottom, so use reversed range
-    for y_corr in reversed(range(10)):
+    for y_corr in reversed(range(11)):
         # loop through each column
-        for x_corr in range(10):
+        for x_corr in range(11):
             # upper triangle
             rect = Rectangle((x_corr, y_corr), 1, 1)
             patch1.append(rect)
@@ -89,14 +89,14 @@ def rectangle_heatmap_plotter(ax, filename, title, last_row, first_col):
     color = np.loadtxt(file_name, delimiter=',')
 
     p.set_array(np.array(color))
-    p.set_clim([0, -12])
+    p.set_clim([0, -10])
     ax.add_collection(p)
 
     # set y axis
     if first_col:
         ax.yaxis.set_major_locator(MultipleLocator(1))
-        ax.set_yticks([t + 0.5 for t in range(10)])
-        ylabels = ['{}'.format((i) * 3100 + 100) for i in range(10)]
+        ax.set_yticks([t + 0.5 for t in range(11)])
+        ylabels = ['{}'.format((i) * 1600 + 1000) for i in range(11)]
         ax.set_yticklabels(ylabels, rotation=0, fontsize=12)
         ax.set_ylabel('query extension (bp)', fontsize=16)
     else:
@@ -105,8 +105,8 @@ def rectangle_heatmap_plotter(ax, filename, title, last_row, first_col):
     # set x axis
     if last_row:
         ax.xaxis.set_major_locator(MultipleLocator(1))
-        ax.set_xticks([t + 0.5 for t in range(10)])
-        xlabels = ['{}'.format(i * 3000 + 100) for i in range(10)]
+        ax.set_xticks([t + 0.5 for t in range(11)])
+        xlabels = ['{}'.format(i * 1500 + 1000) for i in range(11)]
         ax.set_xticklabels(xlabels, rotation=60, fontsize=12)
         ax.set_xlabel('target extension (bp)', fontsize=16)
     else:
@@ -157,7 +157,7 @@ def triangle_heatmap_plotter(ax, filename, title, last_row, colorbar, edge):
     color = np.loadtxt(file_name, delimiter=',')
 
     p.set_array(np.array(color))
-    p.set_clim([0, -12])
+    p.set_clim([0, -10])
     ax.add_collection(p)
 
     ax.set_yticks([])
@@ -165,8 +165,8 @@ def triangle_heatmap_plotter(ax, filename, title, last_row, colorbar, edge):
     # set x axis
     if last_row:
         ax.xaxis.set_major_locator(MultipleLocator(1))
-        ax.set_xticks([t + 0.5 for t in range(10)])
-        xlabels = ['{}'.format(i * 3000 + 100) for i in range(10)]
+        ax.set_xticks([t + 0.5 for t in range(11)])
+        xlabels = ['{}'.format(i * 1500 + 1000) for i in range(11)]
         ax.set_xticklabels(xlabels, rotation=60, fontsize=12)
         ax.set_xlabel('target extension (bp)', fontsize=16)
     else:
@@ -223,7 +223,7 @@ def diagonal_heatmap():
                                  False, False)
         # Add highlight rectangle
         for j in range(3):
-            axes[i_ax, j + j_ax_shift].add_patch(Rectangle((4,5), 1, 1, fill=False, edgecolor='lawngreen', lw=3))
+            axes[i_ax, j + j_ax_shift].add_patch(Rectangle((5,6), 1, 1, fill=False, edgecolor='lawngreen', lw=3))
 
         #axes[i_ax, 1 + j_ax_shift].set_xticks([])
         #axes[i_ax, 2 + j_ax_shift].set_yticks([])
@@ -237,7 +237,7 @@ def diagonal_heatmap():
     p = PatchCollection(icon_patch, cmap='RdYlBu', alpha=0.6)
     p.set_edgecolor('white')
     p.set_array([-2, -6])
-    p.set_clim([-12, 0])
+    p.set_clim([-10, 0])
     axes[3,3].add_collection(p)
 
     axes[3,3].plot([0.02, 0.02, 0.22, 0.22, 0.02], [0.02, 0.22, 0.22, 0.02, 0.02], 'k')
@@ -247,7 +247,7 @@ def diagonal_heatmap():
     # plot colorbar
     cax = fig.add_axes([0.48, 0.24, 0.4, 0.012])
     cmap = mpl.cm.RdYlBu
-    norm = mpl.colors.Normalize(vmin=-12, vmax=0)
+    norm = mpl.colors.Normalize(vmin=-10, vmax=0)
 
     cb1 = mpl.colorbar.ColorbarBase(cax, cmap=cmap,
                                     norm=norm, alpha=0.6,
